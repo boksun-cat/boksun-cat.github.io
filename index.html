@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>
-    // GitHub Pages(/boksun.github.io/) 및 로컬 환경(/) 모두에서 정상 작동하도록 base href 동적 생성
-    (function () {
-      var path = window.location.pathname;
-      if (!path.endsWith('/')) {
-        path = path.substring(0, path.lastIndexOf('/') + 1);
-      }
-      document.write('<base href="' + (path || '/') + '">');
-    })();
-  </script>
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
