@@ -51,14 +51,29 @@
       z-index: 9999;
       transition: opacity 0.4s ease;
     }
-    .splash-cat {
-      font-size: 48px;
-      animation: pulse 1.8s infinite ease-in-out;
+    .splash-avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #12B886;
+      box-shadow: 0 8px 24px rgba(18, 184, 134, 0.22);
+      animation: pulse 2s infinite ease-in-out;
+      background-color: #E6FCF5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .splash-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
     .splash-title {
-      margin-top: 14px;
-      font-size: 17px;
-      font-weight: 700;
+      margin-top: 16px;
+      font-size: 18px;
+      font-weight: 800;
       color: #212529;
       letter-spacing: -0.3px;
     }
@@ -69,21 +84,22 @@
     }
     .splash-bar {
       margin-top: 20px;
-      width: 120px;
-      height: 3px;
+      width: 140px;
+      height: 4px;
       background: #E9ECEF;
-      border-radius: 2px;
+      border-radius: 4px;
       overflow: hidden;
     }
     .splash-bar-inner {
       width: 100%;
       height: 100%;
       background: #12B886;
+      border-radius: 4px;
       animation: progress 1.2s infinite ease-in-out;
     }
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.08); }
+      50% { transform: scale(1.05); }
     }
     @keyframes progress {
       0% { transform: translateX(-100%); }
@@ -93,7 +109,9 @@
 </head>
 <body>
   <div id="loading-splash">
-    <div class="splash-cat">🐱💧</div>
+    <div class="splash-avatar">
+      <img src="boksun.png" alt="복순이" onerror="this.parentElement.innerHTML='🐱'"/>
+    </div>
     <div class="splash-title">복순이 케어</div>
     <div class="splash-sub">신부전 음수량 관리 불러오는 중...</div>
     <div class="splash-bar">
