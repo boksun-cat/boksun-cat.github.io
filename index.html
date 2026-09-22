@@ -120,6 +120,22 @@
   </div>
 
   <script>
+    // 구버전 PWA 서비스워커 및 캐시 완전 삭제 (신규 번들 즉시 반영)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (var i = 0; i < registrations.length; i++) {
+          registrations[i].unregister();
+        }
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(function (names) {
+        for (var i = 0; i < names.length; i++) {
+          caches.delete(names[i]);
+        }
+      });
+    }
+
     window.addEventListener('flutter-first-frame', function () {
       var splash = document.getElementById('loading-splash');
       if (splash) {
@@ -130,6 +146,6 @@
       }
     });
   </script>
-  <script src="flutter_bootstrap.js" async></script>
+  <script src="flutter_bootstrap.js?v=20260922_2" async></script>
 </body>
 </html>
