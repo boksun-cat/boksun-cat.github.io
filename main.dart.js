@@ -59807,7 +59807,7 @@ l=A.i(m,a0,a0,a0,a0,A.m(a0,a0,l,a0,a0,a0,a0,a0,a0,a0,a0,13,a0,a0,B.u,a0,a0,!0,a0
 m=A.V(31,a3.m()>>>16&255,a3.m()>>>8&255,a3.m()&255)
 k=A.j(4)
 if(a2.a){j=B.e.ap(a.d.a.a)
-j=j.length===0?"+0g (0ml)":"+"+j+"g (\uc57d "+B.e.ap(a.e.a.a)+"ml)"}else{j=B.e.ap(a.e.a.a)
+j=j.length===0?"+0g (0ml)":"+"+j+"g (\uc218\ubd84 "+B.e.ap(a.e.a.a)+"ml)"}else{j=B.e.ap(a.e.a.a)
 j=j.length===0?"+0ml":"+"+j+"ml"}k=A.Q(A.b([l,B.P,A.E(a0,A.i(j,a0,a0,a0,a0,A.m(a0,a0,a3,a0,a0,a0,a0,a0,a0,a0,a0,11,a0,a0,B.u,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,a0),B.h,a0,a0,new A.D(m,a0,a0,k,a0,a0,B.m),a0,a0,a0,a0,B.cE,a0,a0,a0)],r),B.l,B.f,B.i,0,a0,a0)
 m=A.c(a8).ax.a===B.b?B.z:B.y
 l=A.j(3)
@@ -60235,7 +60235,7 @@ if(r===B.d.eD(r))r=B.d.aI(r)
 q=k.z
 p=q==null
 if(q==(p?m:B.d.eD(q)))q=p?m:B.d.aI(q)
-q="\uae30\ubcf8 \uc6a9\ub7c9: "+A.o(r)+"g (\uc218\ubd84 "+A.o(q)+"% \u2794 \uc57d "+k.c+"ml)"
+q="\uae30\ubcf8 \uc6a9\ub7c9: "+A.o(r)+"g (\uc218\ubd84 "+A.o(q)+"% \u2794 \uc218\ubd84 "+k.c+"ml)"
 r=q}else r="\uae30\ubcf8 \uc6a9\ub7c9: "+k.c+"ml"
 s=A.b([s,B.hY,A.i(r,m,m,m,m,A.m(m,m,A.c(a).ax.a===B.b?B.r:B.q,m,m,m,m,m,m,m,m,12,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m)],e)
 r=k.e
@@ -62423,8 +62423,7 @@ if(n){if(b7)n=A.o(o.$1(r))+"g"
 else if(b9)n="-"+A.o(o.$1(l==null?r:l))+"g"
 else n=A.o(o.$1(l==null?r:l))+"g"
 n=A.d5(b1,b1,b1,b1,b1,b1,b1,b1,b1,A.m(b1,b1,h,b1,b1,b1,b1,b1,b1,b1,b1,14.5,b1,b1,B.e6,b1,b1,!0,b1,-0.3,b1,b1,b1,b1,b1,b1),n)
-if(b7)a8="(\uc218\ubd84 \uc57d "+k+"ml)"
-else a8=b9?"(\uc218\ubd84 -"+Math.abs(k)+"ml)":"(\uc218\ubd84 "+k+"ml)"
+a8=b9?"(\uc218\ubd84 -"+Math.abs(k)+"ml)":"(\uc218\ubd84 "+k+"ml)"
 if(b7)a9=b4?B.bn:B.ay
 else a9=b4?B.cA:B.ab
 a8=A.b([A.yM(B.jr,A.b8X(A.d5(A.b([n,A.d5(b1,b1,b1,b1,b1,b1,b1,b1,b1,A.m(b1,b1,a9,b1,b1,b1,b1,b1,b1,b1,b1,12.5,b1,b1,B.a8,b1,b1,!0,b1,-0.2,b1,b1,b1,b1,b1,b1),a8)],t.VO),b1,b1,b1,b1,b1,b1,b1,b1,b1,b1),1,b1,b1),B.eN),B.hX],a3)
@@ -62436,7 +62435,7 @@ B.c.E(a8,A.b([A.i(o,1,B.ad,b1,b1,A.m(b1,b1,A.c(c2).ax.a===B.b?B.r:B.q,b1,b1,b1,b
 else o=b9?"-"+Math.abs(b8)+"ml":"+"+b8+"ml"
 o=A.b([A.i(o,b1,b1,b1,b1,A.m(b1,b1,h,b1,b1,b1,b1,b1,b1,b1,b1,15,b1,b1,B.e6,b1,b1,!0,b1,-0.3,b1,b1,b1,b1,b1,b1),b1,b1,b1),B.hX],a3)
 if(b7)o.push(A.i("\uc81c\uacf5\ub7c9",b1,b1,b1,b1,A.m(b1,b1,b4?B.bn:B.ay,b1,b1,b1,b1,b1,b1,b1,b1,9.5,b1,b1,B.N,b1,b1,!0,b1,b1,b1,b1,b1,b1,b1,b1),b1,b1,b1))
-else if(a6&&a5>0)o.push(A.i("\uc57d "+b8+"ml",b1,b1,b1,b1,A.m(b1,b1,A.c(c2).ax.a===B.b?B.b1:B.aK,b1,b1,b1,b1,b1,b1,b1,b1,9.5,b1,b1,B.a4,b1,b1,!0,b1,b1,b1,b1,b1,b1,b1,b1),b1,b1,b1))
+else if(a6&&a5>0)o.push(A.i(""+b8+"ml",b1,b1,b1,b1,A.m(b1,b1,A.c(c2).ax.a===B.b?B.b1:B.aK,b1,b1,b1,b1,b1,b1,b1,b1,9.5,b1,b1,B.a4,b1,b1,!0,b1,b1,b1,b1,b1,b1,b1,b1),b1,b1,b1))
 B.c.E(a7,o)}o=A.b([a2,B.P,a1,B.aw,new A.dh(new A.am(0,a4.a.a*0.45,0,1/0),A.a9(a7,B.cM,B.f,B.M,0,B.v),b1)],a3)
 if(!b9&&!b5.z){b5=b6?B.a9d:B.a9c
 if(b3)n=(A.c(c2).ax.a===B.b?B.b1:B.aK).cu(0.35)
@@ -62506,7 +62505,7 @@ if(m.e!=null){l=n.ax&&n.ay!=null
 p=""+n.d
 if(l){l=n.ay
 l.toString
-o=""+B.d.aI(l)+"g (\uc57d "+p+"ml)"}else o=p+"ml"
+o=""+B.d.aI(l)+"g (\uc218\ubd84 "+p+"ml)"}else o=p+"ml"
 m.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(n.x+" "+o+" \uba39\uc5c8\ub2e4\uace0 \uccb4\ud06c \uc644\ub8cc\ud588\uc2b5\ub2c8\ub2e4! \ud83c\udf89",null,null,null,null,null,null,null,null),null,B.e3,null,null,null,null,null,null,null,null,null,null))}case 3:return A.v(null,r)}})
 return A.w($async$$0,r)},
 $S:4}
@@ -62586,7 +62585,7 @@ a0=A.i("\ucc28\uac10 \ud6c4 \uc2e4\uc81c \uc12d\ucde8\ub7c9",a3,a3,a3,a3,A.m(a3,
 a1=s?"\uc81c\uacf5 "+B.d.aI(g)+"g - \ub0a8\uae40 "+B.d.aI(r.b)+"g":"\uc81c\uacf5 "+j+" ml - \ub0a8\uae40 "+r.a+"ml"
 a0=A.a9(A.b([a0,B.aA,A.i(a1,a3,a3,a3,a3,A.m(a3,a3,A.c(a6).ax.a===B.b?B.b1:B.aK,a3,a3,a3,a3,a3,a3,a3,a3,10,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),a3,a3,a3)],f),B.F,B.f,B.i,0,B.v)
 a1=""+o
-a1=s?""+B.d.aI(q)+"g (\uc57d "+a1+"ml)":a1+" ml"
+a1=s?""+B.d.aI(q)+"g (\uc218\ubd84 "+a1+"ml)":a1+" ml"
 e=A.E(a3,A.Q(A.b([a0,A.i(a1,a3,a3,a3,a3,A.m(a3,a3,A.c(a6).ax.a===B.b?B.o:B.t,a3,a3,a3,a3,a3,a3,a3,a3,16,a3,a3,B.a8,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3),a3,a3,a3)],f),B.l,B.br,B.i,0,a3,a3),B.h,a3,a3,new A.D(e,a3,b,c,a3,a3,B.m),a3,a3,a3,a3,B.dL,a3,a3,a3)
 c=A.cT(a3,a3,B.cm,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,new A.aM(A.j(4),B.p),a3,a3,a3,a3,a3)
 a4=(s?r.b>0:r.a>0)?new A.at0(r,a4,i,s,g,j,a2.w,a6,a2.x):a3
@@ -62666,7 +62665,7 @@ if(p.e!=null){A.bi(q.x,!1).cG(null)
 if(i)l="\uc804\ubd80 \ub0a8\uae40(\ubbf8\uc12d\ucde8 0ml)\uc73c\ub85c \ud655\uc815\ub418\uc5c8\uc2b5\ub2c8\ub2e4."
 else{o=q.b
 n=o.a
-l=k?"\ub0a8\uae34 "+B.d.aI(j.b)+"g\ub97c \uc81c\ud558\uace0 "+B.d.aI(o.b)+"g (\uc218\ubd84 \uc57d "+n+"ml) \uc12d\ucde8\ub85c \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!":"\ub0a8\uae34 "+j.a+"ml\ub97c \uc81c\ud558\uace0 "+n+"ml \uc12d\ucde8\ub85c \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!"}p.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(l,null,null,null,null,null,null,null,null),null,B.aG,null,null,null,null,null,null,null,null,null,null))}return A.v(null,r)}})
+l=k?"\ub0a8\uae34 "+B.d.aI(j.b)+"g\ub97c \uc81c\ud558\uace0 "+B.d.aI(o.b)+"g (\uc218\ubd84 "+n+"ml) \uc12d\ucde8\ub85c \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!":"\ub0a8\uae34 "+j.a+"ml\ub97c \uc81c\ud558\uace0 "+n+"ml \uc12d\ucde8\ub85c \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4!"}p.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(l,null,null,null,null,null,null,null,null),null,B.aG,null,null,null,null,null,null,null,null,null,null))}return A.v(null,r)}})
 return A.w($async$$0,r)},
 $S:4}
 A.atb.prototype={
@@ -62772,7 +62771,7 @@ h=A.an(A.a9(A.b([h,B.aA,A.i(a1+" ("+s+")",a,a,a,a,A.m(a,a,A.c(a3).ax.a===B.b?B.b
 e=A.b([],f)
 if(q&&p!=null){d=p===B.d.eD(p)?B.d.aI(p):p
 d=A.d5(a,a,a,a,a,a,a,a,a,A.m(a,a,A.c(a3).ax.a===B.b?B.o:B.t,a,a,a,a,a,a,a,a,15,a,a,B.a8,a,a,!0,a,-0.3,a,a,a,a,a,a),A.o(d)+"g")
-d=A.yM(B.jr,A.b8X(A.d5(A.b([d,A.d5(a,a,a,a,a,a,a,a,a,A.m(a,a,a6?B.bn:B.ay,a,a,a,a,a,a,a,a,13,a,a,B.a8,a,a,!0,a,-0.2,a,a,a,a,a,a),"(\uc218\ubd84 \uc57d "+m+"ml)")],t.VO),a,a,a,a,a,a,a,a,a,a),1,a,a),B.eN)
+d=A.yM(B.jr,A.b8X(A.d5(A.b([d,A.d5(a,a,a,a,a,a,a,a,a,A.m(a,a,a6?B.bn:B.ay,a,a,a,a,a,a,a,a,13,a,a,B.a8,a,a,!0,a,-0.2,a,a,a,a,a,a),"(\uc218\ubd84 "+m+"ml)")],t.VO),a,a,a,a,a,a,a,a,a,a),1,a,a),B.eN)
 if(o!=null)c="\uc81c\uacf5\ub7c9 \xb7 \uc218\ubd84\uc728 "+A.o(o===B.d.eD(o)?B.d.aI(o):o)+"%"
 else c="\uc81c\uacf5\ub7c9"
 B.c.E(e,A.b([d,B.hX,A.i(c,a,a,a,a,A.m(a,a,A.c(a3).ax.a===B.b?B.r:B.q,a,a,a,a,a,a,a,a,10,a,a,B.N,a,a,!0,a,-0.2,a,a,a,a,a,a),a,a,a)],f))}else{d=A.i(""+n,a,a,a,a,A.m(a,a,A.c(a3).ax.a===B.b?B.o:B.t,a,a,a,a,a,a,a,a,16,a,a,B.a8,a,a,!0,a,a,a,a,a,a,a,a),a,a,a)
@@ -62835,7 +62834,7 @@ case 2:p=q.c
 if(p.e!=null){if(m.ax&&m.ay!=null){o=m.ay
 o.toString
 if(o===B.d.eD(o))o=B.d.aI(o)
-n=A.o(o)+"g (\uc57d "+m.d+"ml)"}else n=""+m.d+"ml"
+n=A.o(o)+"g (\uc218\ubd84 "+m.d+"ml)"}else n=""+m.d+"ml"
 p.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(m.x+" "+n+" \uc804\ub7c9 \uc12d\ucde8 \uc644\ub8cc\ub85c \uae30\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4! \ud83e\udd63\u2728",null,null,null,null,null,null,null,null),null,B.e3,null,null,null,null,null,null,null,null,null,null))}return A.v(null,r)}})
 return A.w($async$$0,r)},
 $S:4}
@@ -62928,7 +62927,7 @@ a2=a1.Mw("\uc81c\uacf5\ud55c \uc591",a2,A.c(a7).ax.a===B.b?B.H:B.G)
 if(s)a3=A.o(q===B.d.eD(q)?B.d.aI(q):q)+"g"
 else a3=""+l+"ml"
 a3=a1.Mw("\ub0a8\uae34 \uc591",a3,B.cm)
-if(s)p=A.o(p===B.d.eD(p)?B.d.aI(p):p)+"g (\uc57d "+m+"ml)"
+if(s)p=A.o(p===B.d.eD(p)?B.d.aI(p):p)+"g (\uc218\ubd84 "+m+"ml)"
 else p=""+m+"ml"
 p=A.E(a5,A.Q(A.b([a2,B.aAa,a3,B.azr,a1.Mw("\uc2e4\uc81c \uc12d\ucde8\ub7c9",p,A.c(a7).ax.a===B.b?B.o:B.t)],f),B.l,B.ut,B.i,0,a5,a5),B.h,a5,a5,new A.D(b,a5,a0,a,a5,a5,B.m),a5,a5,a5,a5,B.dL,a5,a5,a5)
 m=s?"\uadf8\ub987\uc5d0 \ub0a8\uc740 \ubb34\uac8c \uc785\ub825 (g)":"\uadf8\ub987\uc5d0 \ub0a8\uc740 \uc591 \uc785\ub825 (ml)"
@@ -62973,7 +62972,7 @@ case 6:case 3:n=q.e
 if(n.e!=null){A.bi(q.f,!1).eL()
 if(o?l.d>=q.r:l.b>=q.w)p="\uc804\ubd80 \ub0a8\uae40(\ubbf8\uc12d\ucde8 0ml)"
 else{k=l.a
-p=o?"\uc2e4\uc81c \uc12d\ucde8 "+B.d.aI(l.c)+"g (\uc218\ubd84 \uc57d "+k+"ml, \uc794\uc5ec "+B.d.aI(l.d)+"g)":"\uc2e4\uc81c \uc12d\ucde8 "+k+"ml (\uc794\uc5ec "+l.b+"ml)"}n.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(m.x+" "+p+" \ud655\uc815 \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4! \u2728",null,null,null,null,null,null,null,null),null,B.aG,null,null,null,null,null,null,null,null,null,null))}return A.v(null,r)}})
+p=o?"\uc2e4\uc81c \uc12d\ucde8 "+B.d.aI(l.c)+"g (\uc218\ubd84 "+k+"ml, \uc794\uc5ec "+B.d.aI(l.d)+"g)":"\uc2e4\uc81c \uc12d\ucde8 "+k+"ml (\uc794\uc5ec "+l.b+"ml)"}n.W(t.q).f.cC(A.f1(null,null,null,null,B.av,B.C,null,A.i(m.x+" "+p+" \ud655\uc815 \uc644\ub8cc\ub418\uc5c8\uc2b5\ub2c8\ub2e4! \u2728",null,null,null,null,null,null,null,null),null,B.aG,null,null,null,null,null,null,null,null,null,null))}return A.v(null,r)}})
 return A.w($async$$0,r)},
 $S:4}
 A.axI.prototype={
@@ -63258,7 +63257,7 @@ if(m==l){m=k.c.z
 m=m==null?i:B.d.aI(m)}else m=k.c.z
 l=j.d
 l===$&&A.a()
-B.c.E(p,A.b([B.c3,A.E(i,A.Q(A.b([n,B.aw,A.i("\uc218\ubd84\uc728 "+A.o(m)+"% \uae30\uc900 \u2794 \uc608\uc0c1 \uc74c\uc218\ub7c9 \uc57d "+l+"ml",i,i,i,i,A.m(i,i,e,i,i,i,i,i,i,i,i,11,i,i,B.N,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],r),B.l,B.f,B.M,0,i,i),B.h,i,i,new A.D(a4,i,o,q,i,i,B.m),i,i,i,i,B.lM,i,i,i)],r))}p.push(B.aT)
+B.c.E(p,A.b([B.c3,A.E(i,A.Q(A.b([n,B.aw,A.i("\uc218\ubd84\uc728 "+A.o(m)+"% \uae30\uc900 \u2794 \ud3ec\ud568 \uc218\ubd84 "+l+"ml",i,i,i,i,A.m(i,i,e,i,i,i,i,i,i,i,i,11,i,i,B.N,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],r),B.l,B.f,B.M,0,i,i),B.h,i,i,new A.D(a4,i,o,q,i,i,B.m),i,i,i,i,B.lM,i,i,i)],r))}p.push(B.aT)
 p.push(A.Q(A.b([j.a2V("-10",new A.aWs(j),g),B.aS,j.a2V("-5",new A.aWt(j),g),B.bj,j.Pt("+5",new A.aWu(j),g,e),B.aS,j.Pt("+10",new A.aWv(j),g,e)],r),B.l,B.cW,B.i,0,i,i))
 a0.push(A.E(i,A.a9(p,B.l,B.f,B.i,0,B.v),B.h,i,i,new A.D(a1,i,a3,a2,i,i,B.m),i,i,i,i,B.dM,i,i,i))
 a0.push(B.ax)
@@ -63322,7 +63321,7 @@ if(i!=null){A.bi(i,!1).cG(!0)
 if(o!=null)g=o===B.d.eD(o)?""+B.d.aI(o)+"g":A.o(o)+"g"
 else g=""
 i=""+m
-f=e?g+" (\uc57d "+i+"ml)":i+"ml"
+f=e?g+" (\uc218\ubd84 "+i+"ml)":i+"ml"
 e=p.c.W(t.q).f
 d=A.i(c?d+" +"+f+" \uc12d\ucde8 \uc644\ub8cc\ub85c \uae30\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4!":d+" "+f+" \uc8fc\ub294 \uc591\uc73c\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ub2e4 \uba39\uc73c\uba74 [\ub2e4 \uba39\uc74c]\uc744 \ub20c\ub7ec\uc8fc\uc138\uc694!",null,null,null,null,null,null,null,null)
 i=p.c
