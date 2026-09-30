@@ -136,6 +136,18 @@
       });
     }
 
+    // WebGL Context Loss & Mobile PWA App Switching Recovery
+    // Chrome PWA 환경에서 타 앱 전환 후 복귀 시 GPU WebGL 컨텍스트 유실로 인한 검은 화면 방지
+    window.addEventListener('webglcontextlost', function (event) {
+      event.preventDefault();
+    }, true);
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') {
+        window.dispatchEvent(new Event('resize'));
+      }
+    });
+
     window.addEventListener('flutter-first-frame', function () {
       var splash = document.getElementById('loading-splash');
       if (splash) {
